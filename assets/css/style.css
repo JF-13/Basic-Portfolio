@@ -7,11 +7,11 @@ body {
 }
 
 .headerStyle {
-	background-color: white;
+	background-color: #ffffff;
 	padding-bottom: 60px;
 	border-style: solid;
 	border-width: 0px 0px 2px 0px;
-	border-color: #ccc;
+	border-color: #cccccc;
 
 }
 
@@ -90,13 +90,14 @@ body {
 }
 
 .footer {
-	background-color: grey;
+	background-color: #666666;
 	color: white;
 	text-align: center;
-	margin-top: 615px;
-	margin-bottom: 15px;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	position: absolute;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	padding: 1rem;
 	border-style: solid;
 	border-width: 5px 0px 0px 0px;
 	border-color: #69abb2;
