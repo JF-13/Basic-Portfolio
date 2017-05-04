@@ -30,7 +30,7 @@ h1 {
 	float: left;
 	margin-top: 20px;
 	font-size: 20px;
-	padding-left: 375px; 
+	padding-left: 430px; 
 }
 
 .listItems {
@@ -70,9 +70,8 @@ h1 {
 }
 
 .socialIcons {
-	margin-left: 17px;
-	overflow: hidden;
-	color: #FFFFFF;
+	margin-left: 4px;
+	width: 50px;
 }
 
 .midParagraph {
