@@ -1,9 +1,9 @@
-* {
-	font-family: monospace;
-}
-
 body {
 	background-image: url(../images/whiteBackground.jpg);
+}
+
+h1 {
+	font-family: Georgia;
 }
 
 .headerStyle {
@@ -29,7 +29,6 @@ body {
 .menuStyle {
 	float: left;
 	margin-top: 20px;
-	font-family: monospace;
 	font-size: 20px;
 	padding-left: 375px; 
 }
@@ -47,7 +46,6 @@ body {
 
 .middleLeftTitle {
 	font-size: 30px;
-	font-family: monospace;
 }
 
 .middleLeft {
@@ -77,7 +75,6 @@ body {
 
 .midParagraph {
 	width: 400px;
-	font-family: monospace;
 }
 
 .line1 {
@@ -126,4 +123,8 @@ body {
 
 .whiteFont {
 	color: white;
+}
+
+.textColor {
+	color: #777777;
 }
