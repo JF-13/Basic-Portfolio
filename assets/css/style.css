@@ -60,11 +60,22 @@ h1 {
 	padding-left: 440px;
 }
 
+.listItems:hover {
+	display: inline-block;
+	padding-left: 16px;
+	color: #69abb2;
+}
+
+.listItems:active {
+	display: inline-block;
+	padding-left: 16px;
+	color: orange;
+}
+
 .listItems {
 	display: inline-block;
 	padding-left: 16px;
 	color: grey;
-
 }
 
 .middleStyle {
@@ -106,7 +117,9 @@ h1 {
 }
 
 .midParagraph {
-	width: 400px;
+	width: 500px;
+	font-size: 17px;
+	letter-spacing: .5px;
 }
 
 .line1 {
@@ -140,6 +153,14 @@ h1 {
 	width: 240px;
 }
 
+.portfolio:hover {
+	display: inline-block;
+	padding: 10px;
+	height: 150px;
+	width: 240px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+}
+
 .formTextbox {
 	width: 521px;
 	height: 150px;
@@ -166,6 +187,39 @@ h1 {
 	font-weight: 500px;
 	color: white;
 	background-color: #69abb2;
+	margin: 20px;
+	margin-left: 0px;
+	width: 100px;
+	height: 34px;
+	float: left;
+	padding-top: 16px;
+	text-align: center;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+}
+
+.button:hover {
+	font-weight: 500px;
+	color: white;
+	background-color: orange;
+	margin: 20px;
+	margin-left: 0px;
+	width: 100px;
+	height: 34px;
+	float: left;
+	padding-top: 16px;
+	text-align: center;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+}
+
+
+.button:active {
+	font-weight: 500px;
+	color: white;
+	background-color: grey;
 	margin: 20px;
 	margin-left: 0px;
 	width: 100px;
